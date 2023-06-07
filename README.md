@@ -15,18 +15,18 @@ arched [-h] [--output_name OUTPUT_NAME] path_to_directory folder_with_scans
  A novel residual neural network for predicting amyloid CSF directly from amyloid PET scans
 
  positional arguments:
-  path_to_directory     the path to folder that **contains model (model_08-0.12_20_10_22.h5), arched_package.zip and folder with PET scans**, for ex. '~/abeta/ArcheD_run_example/'
+  path_to_directory     the path to folder that contains model (model_08-0.12_20_10_22.h5), arched_package.zip and folder with PET scans, for ex. '~/(your path)/model_to_use/'
   folder_with_scans     the name of the folder with scans (if the folder with scans is in path_to_directory) or the full path to it, for ex. 'scans' (as it locates in model_to_use folder) or '~/(your path)/scans'
 
  optional arguments:
   -h, --help            show this help message and exit
   --output_name OUTPUT_NAME, -o OUTPUT_NAME
-                        name for the output file (include the path if you want file to be saved not in the path_to_directory), for ex. 'arched_amyloid_csf_prediction'
+                        name for the output file, for ex. 'arched_amyloid_csf_prediction'. Note: include the path if you want the output file to be saved not in the path_to_directory.
 ```
 
 Example of the command line
 
-`arched '~/abeta/ArcheD_run_example/' 'scans' -o 'arched_amyloid_csf_prediction'` 
+`arched '~/model_to_use/' 'scans' -o 'arched_amyloid_csf_prediction'` 
 
 5. If the model runs successfully, you will get the 'Model run successfully!' message and the CSV file will appear in your working directory. The file name will consist of the 'output_name', time and date of the model running.
 
