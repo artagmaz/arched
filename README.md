@@ -26,7 +26,7 @@ arched [-h] [--output_name OUTPUT_NAME] path_to_directory folder_with_scans
 
 Example of the command line
 
-`arched '/csc/epitkane/home/atagmazi/AD_DL_ADNI/CNN/abeta/ArcheD_run_example/' 'scans' -o 'arched_amyloid_csf_prediction'` 
+`arched '~/abeta/ArcheD_run_example/' 'scans' -o 'arched_amyloid_csf_prediction'` 
 
 # Authors
 ...
