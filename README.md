@@ -4,7 +4,7 @@ ArcheD - a novel residual neural network to predict amyloid CSF directly from am
 ...
 
 # How to use the model
-1. Clone ArcheD repository.
+1. Clone ArcheD repository from Github.
 2. **In the folder 'model_to_use'** unzip the file model.zip.
 3. Run `pip install arched_package.zip`
 4. Now you can run ArcheD model with your command line.
@@ -27,6 +27,7 @@ arched [-h] [--output_name OUTPUT_NAME] path_to_directory folder_with_scans
 Example of the command line
 
 `arched '~/abeta/ArcheD_run_example/' 'scans' -o 'arched_amyloid_csf_prediction'` 
+5. If the model runs successfully, you will get the 'Model run successfully!' message and the CSV file will appear in your working directory. The file name will consist of the 'output_name', time and date of the model running.
 
 # Authors
 ...
