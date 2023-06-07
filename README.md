@@ -23,6 +23,7 @@ arched [-h] [--output_name OUTPUT_NAME] path_to_directory folder_with_scans
   --output_name OUTPUT_NAME, -o OUTPUT_NAME
                         name for the output file, for ex. 'arched_amyloid_csf_prediction'
 ```
+
 Example of the command line
 `arched '/csc/epitkane/home/atagmazi/AD_DL_ADNI/CNN/abeta/ArcheD_run_example/' 'scans' -o 'arched_amyloid_csf_prediction' 
 
