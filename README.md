@@ -16,12 +16,12 @@ arched [-h] [--output_name OUTPUT_NAME] path_to_directory folder_with_scans
 
  positional arguments:
   path_to_directory     the path to folder that **contains model (model_08-0.12_20_10_22.h5), arched_package.zip and folder with PET scans**, for ex. '~/abeta/ArcheD_run_example/'
-  folder_with_scans     the name of the folder with scans or the path to it, for ex. 'scans'
+  folder_with_scans     the name of the folder with scans (if the folder with scans is in path_to_directory) or the full path to it, for ex. 'scans' (as it locates in model_to_use folder) or '~/(your path)/scans'
 
  optional arguments:
   -h, --help            show this help message and exit
   --output_name OUTPUT_NAME, -o OUTPUT_NAME
-                        name for the output file, for ex. 'arched_amyloid_csf_prediction'
+                        name for the output file (include the path if you want file to be saved not in the path_to_directory), for ex. 'arched_amyloid_csf_prediction'
 ```
 
 Example of the command line
