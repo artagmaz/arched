@@ -27,6 +27,7 @@ arched [-h] [--output_name OUTPUT_NAME] path_to_directory folder_with_scans
 Example of the command line
 
 `arched '~/abeta/ArcheD_run_example/' 'scans' -o 'arched_amyloid_csf_prediction'` 
+
 5. If the model runs successfully, you will get the 'Model run successfully!' message and the CSV file will appear in your working directory. The file name will consist of the 'output_name', time and date of the model running.
 
 # Authors
