@@ -1,5 +1,5 @@
 # ArcheD
-ArcheD - a novel residual neural network to predict amyloid CSF directly from amyloid PET scans.
+Amyloid-beta aggregation is one of the Alzheimer's disease (AD) specific biomarkers. Its detection and measurement is akey factor for early identification and diagnosis of AD. We developed a novel residual neural network ("ArcheD") to predict amyloid-beta cerebrospinal fluid (CSF) concentration directly from amyloid-beta PET scans, independent of the tracer, brain reference region or preselected regions of interest. 
 # About the model
 ArcheD contains 35 layers and approximately 10.7 millions of parameters. 
 
@@ -44,6 +44,6 @@ Example of the command line
 # Authors
 Arina A. Tagmazian, Claudia Schwarz, Catharina Lange, Esa Pitkänen, Eero Vuoksimaa
 
-*Data used for training and evaluating the model were obtained from the Alzheimer’s Disease Neuroimaging Initiative (ADNI) database (adni.loni.usc.edu). 
+Data used for training and evaluation the model were obtained from the Alzheimer’s Disease Neuroimaging Initiative (ADNI) database (adni.loni.usc.edu). 
 
 Preprint of the manuscript with results is available on [BioRxiv](https://www.biorxiv.org/content/10.1101/2023.06.20.545686v2). 
