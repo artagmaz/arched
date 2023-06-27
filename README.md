@@ -10,7 +10,8 @@ Evaluation metrics: mean squared error (MSE)
 Number of epochs: maximum of 150 epochs and stopped early, if loss in the validation dataset did not decrease for 15 epochs 
 
 Batch size: 4
-## ArcheD architechture
+
+![plot](arched_architechture.png)
 
 
 # How to use the model
