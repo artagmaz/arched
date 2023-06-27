@@ -42,4 +42,8 @@ Example of the command line
 5. If the model runs successfully, you will get the 'Model run successfully!' message and the CSV file will appear in your working directory. The file name will consist of the 'output_name', time and date of the model running.
 
 # Authors
-...
+Arina A. Tagmazian, Claudia Schwarz, Catharina Lange, Esa Pitkänen, Eero Vuoksimaa
+
+*Data used for training and evaluating the model were obtained from the Alzheimer’s Disease Neuroimaging Initiative (ADNI) database (adni.loni.usc.edu). 
+
+Preprint of the manuscript with results is available on [BioRxiv](https://www.biorxiv.org/content/10.1101/2023.06.20.545686v2). 
