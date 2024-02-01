@@ -3,6 +3,8 @@ Amyloid-beta aggregation is one of the Alzheimer's disease (AD) specific biomark
 # About the model
 ArcheD contains 35 layers and approximately 10.7 millions of parameters. 
 
+Input: Amyloid PET scans with demetion 160x160x96 ([same to CO-REG, AVG, STANDARDIZED IMAGE AND VOXEL SIZE processing step of ADNI dataset](https://adni.loni.usc.edu/methods/pet-analysis-method/pet-analysis/))
+
 Activation function: ReLU
 
 Optimization: Adam optimization algorithm (Kingma & Ba, 2014) with an initial learning rate of 0.0001
